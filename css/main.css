@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-ft-color: rgb(52, 52, 52);
+  --secondary-ft-color: rgb(6, 6, 6);
+}
+
+@font-face {
+  font-family: main-font;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+.container {
+  max-width: 1270px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(52, 52, 52);
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  font-family: main-font;
+  font-weight: 400;
+}
