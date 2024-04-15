@@ -1,0 +1,39 @@
+.mobile_design {
+    background: rgb(243, 241, 252);
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 15px;
+
+    .mobilepr {
+        color: rgb(98, 76, 224);
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+
+    h1 {
+        color: rgb(52, 52, 52);
+        font-size: 53px;
+        font-weight: 400;
+        line-height: 67.2px;
+        letter-spacing: 1.68px;
+        max-width: 650px;
+        margin: 0 auto;
+    }
+
+    .enjoy {
+        color: rgb(18, 18, 18);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28.8px;
+        max-width: 650px;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 23px;
+    }
+
+    img {
+        max-width: 1040px;
+    }
+}

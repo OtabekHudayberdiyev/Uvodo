@@ -1,0 +1,53 @@
+.sell_advert {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 210px;
+  background-image: url(../images/socks_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: contain;
+}
+.sell_advert .sell_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+  position: relative;
+}
+.sell_advert .sell_img .socks {
+  position: absolute;
+  bottom: -124px;
+}
+.sell_advert .sell_info {
+  max-width: 400px;
+  padding-top: 45px;
+  margin: 90px;
+}
+.sell_advert .sell_info p:first-child {
+  color: rgb(98, 76, 224);
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 17px;
+}
+.sell_advert .sell_info h1 {
+  color: rgb(52, 52, 52);
+  font-size: 48px;
+  line-height: 62.4px;
+  letter-spacing: 1.44px;
+  margin-bottom: 10px;
+}
+.sell_advert .sell_info .channel {
+  color: rgb(18, 18, 18);
+  font-size: 12px;
+  line-height: 28.8px;
+  margin-bottom: 34px;
+}
+.sell_advert .sell_info button {
+  background: rgb(6, 6, 6);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 22.4px;
+  border-radius: 300px;
+  padding: 1px 46px;
+  border: none;
+}

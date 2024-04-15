@@ -12,18 +12,20 @@
 	<!-- Header start -->
 	<header class="header-primary">
 		<div class="container">
-			<div class="header_logo_nav">
-				<a href="#"><img src="" alt="logo_png"></a>
+			<div class="header_left">
+				<div class="header_logo_nav">
+					<a href="#"><img src="./images/header_logo.png" alt="logo_png"></a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">Pricing</a></li>
+						<li><a href="#">Resources</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</nav>
 			</div>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Features</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><a href="#">Resources</a></li>
-					<li><a href="#">Support</a></li>
-				</ul>
-			</nav>
 			<button class="btn-primary">Buy Uvodo now</button>
 		</div>
 	</header>
@@ -36,14 +38,37 @@
 				<div class="hero_info">
 					<p>PAY ONE-TIME SMALL FEE, USE LIFETIME</p>
 					<h1>Like Shopify store, with one-time fee</h1>
-					<p>Uvodo is an open-source Headless eCommerce Platform for small and medium brands, and everyone who wants to sell online.</p>
+					<p class="hero_p2">Uvodo is an open-source Headless eCommerce Platform for small and medium brands, and everyone who wants to sell online.</p>
 					<div class="hero_btns">
-						<button>Admin Demo</button>
-						<button>Shop Demo</button>
+						<button class="admin-btn">Admin Demo</button>
+						<button class="shop-btn">Shop Demo</button>
 					</div>
 				</div>
 				<div class="hero_img">
 					<img src="./images/hero_img.png" alt="hero_img">
+					<div class="visit_store_card">
+						<div class="card_header">
+							<img src="./images/card_logo.png" alt="card-logo">
+							<p>Visit store</p>
+						</div>
+						<div class="card_body">
+							<p class="card_owner"><span>Hey Jessica!</span> - here's what's happening with your store today.</p>
+							<div>
+								<p>TODAY"S SALES</p>
+								<p>$52.60</p>
+							</div>
+							<div>
+								<p>TOTAL SALES</p>
+								<p>$2.146.00</p>
+							</div>
+							<div>
+								<p>TOTAL ORDERS</p>
+								<p>86</p>
+							</div>
+						</div>
+					</div>
+					<img class="basket" src="./images/basket_png.png" alt="basket-png">
+					<img class="socks" src="./images/socks_png.png" alt="socks-png">  
 				</div>
 			</section>
 
@@ -58,50 +83,55 @@
 				</ul>
 			</section>
 
+		</div>
 			<section class="mobile_design">
-				<p>MOBILE FIRST DESIGN</p>
-				<h1>Manage your online store from your pocket</h1>
-				<p>Enjoy complete freedom of doing business online by managing every aspect of your online store from your mobile device.</p>
-				<img src="./images/mobile_png.png" alt="mobile_design">
+				<div class="container">
+					<p class="mobilepr">MOBILE FIRST DESIGN</p>
+					<h1>Manage your online store from your pocket</h1>
+					<p class="enjoy">Enjoy complete freedom of doing business online by managing every aspect of your online store from your mobile device.</p>
+					<img src="./images/mobile_png.png" alt="mobile_design">
+				</div>
 			</section>
+
+		<div class="container">
 
 			<section class="benefits">
 				<div class="benefits_info">
-					<p>360° CUSTOMIZABLE</p>
+					<p class="bugp">360° CUSTOMIZABLE</p>
 					<h1>Have full control over your online store</h1>
 					<p>Take complete control over your eCommerce business by owning source code, data, and economics.</p>
 				</div>
 				<div class="benefits_list">
 					<div class="benefits_list_item">
 						<img src="./images/diamond_png.png" alt="diamond_png">
-						<p>One-time payment</p>
+						<p  class="bugp">One-time payment</p>
 						<p>Uvodo is a lifetime investment, one-time fee with no recurring payments. Pay once and never pay again to own your shop.</p>
 					</div>
 					<div class="benefits_list_item">
 						<img src="./images/settings_png.png" alt="settings_png">
-						<p>100% customizable</p>
+						<p  class="bugp">100% customizable</p>
 						<p>You have complete control over the customization of your storefront and everything else the way you want as an owner of the source code.</p>
 					</div>
 					<div class="benefits_list_item">
 						<img src="./images/phone_png.png" alt="phone_png">
-						<p>Mobile first design</p>
+						<p  class="bugp">Mobile first design</p>
 						<p>Manage your store right at your fingertips and provide a seamless shopping experience to your customers with PWA ready storefront.</p>
 					</div>
 				</div>
 				<div class="benefits_list">
 					<div class="benefits_list_item">
 						<img src="./images/clock_png.png" alt="clock_png">
-						<p>Always free updates</p>
+						<p  class="bugp">Always free updates</p>
 						<p>Uvodo is so committed to giving you the tools that are always current that it sends you free updates foa lifetime without paying for anything.</p>
 					</div>
 					<div class="benefits_list_item">
 						<img src="./images/konus_png.png" alt="konus_png">
-						<p>Self-hosted data</p>
+						<p  class="bugp">Self-hosted data</p>
 						<p>You own your data and gain complete control over your business, data and profits, and how your store look and operates.</p>
 					</div>
 					<div class="benefits_list_item">
 						<img src="./images/key_png.png" alt="key_png">
-						<p>Smooth installation</p>
+						<p  class="bugp">Smooth installation</p>
 						<p>Enjoy a hassle-free experience of the breeze installation process knowing your system is running at peak performance.</p>
 					</div>
 				</div>
@@ -111,8 +141,8 @@
 				<div class="payment_info">
 					<p>PWA READY STOREFRONT</p>
 					<h1>Pay once, own everything</h1>
-					<p>Build the business you’ve always dreamed of. No worries about monthly fees or recurring payments.</p>
-					<button>Buy Uvodo now</button>
+					<p class="worry">Build the business you’ve always dreamed of. No worries about monthly fees or recurring payments.</p>
+					<button class="admin-btn shop-btn">Buy Uvodo now</button>
 				</div>
 				<div class="payment_img">
 					<img src="./images/payment_png.png" alt="payment_img">
@@ -122,34 +152,42 @@
 			<section class="sell_advert">
 				<div class="sell_img">
 					<img src="./images/sell_advert_png.png" alt="sell_img">
+					<img class="socks" src="./images/three_socks.png" alt="socks">
 				</div>
 				<div class="sell_info">
 					<p>PAY ONCE, USE LIFETIME</p>
 					<h1>It’s how you sell on the spot</h1>
-					<p>Sell from your online store and turn social media accounts into shoppable channels.</p>
+					<p class="channel">Sell from your online store and turn social media accounts into shoppable channels.</p>
 					<button>Buy Uvodo now</button>
 				</div>
 			</section>
+		 </div>
 
 			<section class="customer">
+				<div class="container">
 				<h1>What Our Customers Say</h1>
-				<p>See what it’s like to be a customer of Uvodo.</p>
+				<p class="see">See what it’s like to be a customer of Uvodo.</p>
 				<div class="customer_slider">
 					<p>Uvodo and it’s amazing support team has helped me set up my first ever online store from the ground up. Now I’m making a living from my hobby. Couldn’t be happier!</p>
 					<p>Zane Mayes</p>
 					<p>Entrepreneur, Business Owner</p>
+					<a href="#"><img class="girl_img" src="./images/customer1.png" alt="girl"></a>
+					<a href="#"><img class="man_img" src="./images/customer2.png" alt="man"></a>
+					<a class="right_strike" href="#"><img src="./images/right_strike.png" alt="right_strike"></a>
+					<a class="left_strike" href="#"><img src="./images/left_strike.png" alt="left_strike"></a>
+				</div>
 				</div>
 			</section>
-
+		<div class="container">
 			<section class="invest">
 				<h1>One cost, lifetime investment.</h1>
-				<p>It’s a one-time payment. Pay once, use for a lifetime.</p>
+				<p class="invest_firstp">It’s a one-time payment. Pay once, use for a lifetime.</p>
 				<div class="invest_types_block">
 					<div class="invest_type_item">
 						<div class="invest_general_info">
 							<p>Regular</p>
 							<p>Best for personal use by small business and creators with occasional online & in-person sales.</p>
-							<p>$49.00<span>/ one-time</span></p>
+							<p>$49.00 <sup>/ one-tim</sup></p>
 							<button>Buy now</button>
 						</div>
 						<div class="invest_detailed_info">
@@ -163,9 +201,9 @@
 					</div>
 					<div class="invest_type_item">
 						<div class="invest_general_info">
-							<p>Regular</p>
-							<p>Best for personal use by small business and creators with occasional online & in-person sales.</p>
-							<p>$49.00<span>/ one-time</span></p>
+							<p>Extended</p>
+							<p>Best for developers or agencies to develop/customize and resell it to their clients.</p>
+							<p>$599.00<sup>/ one-tim</sup></p>
 							<button>Buy now</button>
 						</div>
 						<div class="invest_detailed_info">
@@ -179,9 +217,9 @@
 					</div>
 					<div class="invest_type_item">
 						<div class="invest_general_info">
-							<p>Regular</p>
-							<p>Best for personal use by small business and creators with occasional online & in-person sales.</p>
-							<p>$49.00<span>/ one-time</span></p>
+							<p>Enterprise</p>
+							<p>Best for professional businesses that require exclusive apps, themes, and extensive support.</p>
+							<p>On Request</p>
 							<button>Buy now</button>
 						</div>
 						<div class="invest_detailed_info">
@@ -195,37 +233,40 @@
 					</div>
 				</div>
 			</section>
-
+		</div>
 			<section class="start">
+				<div class="container">
+
 				<h1>So, where to start?</h1>
-				<p>It’s never been so easy to launch your online store.</p>
+				<p class="startp">It’s never been so easy to launch your online store.</p>
 				<div class="start_steps">
 					<div class="step">
 						<img src="./images/download.png" alt="download_png">
-						<p>Buy Uvodo</p>
-						<p>Buy Uvodo eCommerce Platform with one-time fee.</p>
+						<p class="stepp1">Buy Uvodo</p>
+						<p class="stepp2">Buy Uvodo eCommerce Platform with one-time fee.</p>
 					</div>
 					<div class="step">
 						<img src="./images/step_konus.png" alt="step_konus_png">
-						<p>Install on server</p>
-						<p>Install on your own server. We can also install.</p>
+						<p class="stepp1">Install on server</p>
+						<p class="stepp2">Install on your own server. We can also install.</p>
 					</div>
 					<div class="step">
 						<img src="./images/molecula.png" alt="molecula_png">
-						<p>Get started</p>
-						<p>Welcome your sellers, share on social media to join your website.</p>
+						<p class="stepp1">Get started</p>
+						<p class="stepp2">Welcome your sellers, share on social media to join your website.</p>
 					</div>
 					<div class="step">
 						<img src="./images/eye.png" alt="download_png">
-						<p>Start selling</p>
-						<p>Start earning from sales with Uvodo eCommerce Platform.</p>
+						<p class="stepp1">Start selling</p>
+						<p class="stepp2">Start earning from sales with Uvodo eCommerce Platform.</p>
 					</div>
 				</div>
+			</div>
 			</section>
-
+		<div class="container">	
 			<section class="our_blog">
 				<h1>Read our blog</h1>
-				<p>We give actionable tips, strategies, and techniques to grow your business.</p>
+				<p class="blog_p">We give actionable tips, strategies, and techniques to grow your business.</p>
 				<div class="blog_block">
 					<div class="blog_item">
 						<div class="blog_item_img">
@@ -248,15 +289,30 @@
 						<p>Hosted VS self-hosted eCommerce: which solution to choose for your online business? You may have heard of these platforms like Shopify, Volusion, and BigCommerce, where you are paying on a monthly basis to have an online ...</p>
 						<p>Sep 30, 2021<span>Read More</span></p>
 					</div>
+					<div class="blog_item">
+						<div class="blog_item_img">
+							<img src="./images/project.png" alt="project_png">
+						</div>
+						<p>Hosted VS self-hosted eCommerce: which solution to choose for your online business? You may have heard of these platforms like Shopify, Volusion, and BigCommerce, where you are paying on a monthly basis to have an online ...</p>
+						<p>Sep 30, 2021<span>Read More</span></p>
+					</div>
+				</div>
+				<div class="dots">
+					<a href="#"><img src="./images/circle.png" alt="circle_png"></a>
+					<a href="#"><img src="./images/circle.png" alt="circle_png"></a>
 				</div>
 			</section>
+		</div>
 
 			<section class="install">
-				<h1>We can take care of the installation</h1>
+				<div class="container">	
+				<h1>We can take care of <br> the installation</h1>
 				<p>Don’t want to deal with technical stuff?</p>
 				<p>Let us fire up Uvodo for you, so you can spend your time selling right away.</p>
 				<button>Contact Us</button>
+				</div>
 			</section>
+
 
 			<footer>
 				<div class="container">
@@ -269,6 +325,7 @@
 							</ul>
 						</nav>
 					</div>
+					<div class="footer_line"></div>
 					<div class="footer_body">
 						<div class="resources">
 							<p>Resources</p>
@@ -296,8 +353,6 @@
 					</p>
 				</div>
 			</footer>
-
-		</div>
 	</main>
 
 </body>

@@ -1,0 +1,84 @@
+.customer {
+  background: rgb(247, 243, 235);
+  text-align: center;
+  padding: 76px 0 140px 0;
+  margin-bottom: 76px;
+}
+.customer h1 {
+  color: rgb(52, 52, 52);
+  font-size: 54px;
+  line-height: 67.2px;
+  letter-spacing: 1.68px;
+  margin-top: 76px;
+  margin-bottom: 10px;
+}
+.customer .see {
+  color: rgb(18, 18, 18);
+  font-size: 18px;
+  line-height: 28.8px;
+  margin-bottom: 47px;
+}
+.customer .customer_slider {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  margin: 0 auto;
+  max-width: 840px;
+  padding: 80px 88px;
+  position: relative;
+}
+.customer .customer_slider p:first-child {
+  color: rgb(9, 9, 9);
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+.customer .customer_slider p:nth-child(2) {
+  color: rgb(52, 52, 52);
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 9px;
+}
+.customer .customer_slider p:last-child {
+  color: rgb(52, 52, 52);
+  font-size: 14px;
+  line-height: 14px;
+}
+.customer .customer_slider img {
+  position: absolute;
+}
+.customer .customer_slider .girl_img {
+  left: 338px;
+  bottom: -37px;
+}
+.customer .customer_slider .girl_img img {
+  width: 76px;
+  height: 76px;
+}
+.customer .customer_slider .man_img {
+  right: 338px;
+  bottom: -37px;
+}
+.customer .customer_slider .man_img img {
+  width: 76px;
+  height: 76px;
+}
+.customer .customer_slider .right_strike, .customer .customer_slider .left_strike {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 42px;
+  height: 42px;
+}
+.customer .customer_slider .right_strike img, .customer .customer_slider .left_strike img {
+  width: 100%;
+  height: 100%;
+}
+.customer .customer_slider .right_strike {
+  right: -40px;
+}
+.customer .customer_slider .left_strike {
+  left: -85px;
+}

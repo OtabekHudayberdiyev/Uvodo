@@ -1,0 +1,42 @@
+.benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.benefits .benefits_info p:first-child {
+  margin-bottom: 17px;
+  color: rgb(98, 76, 224);
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 1.5px;
+}
+.benefits .benefits_info h1 {
+  color: var(--main-ft-color);
+  font-size: 45px;
+  line-height: 62.4px;
+  letter-spacing: 1.44px;
+  margin-bottom: 9px;
+}
+.benefits .benefits_info p:last-child {
+  color: rgb(18, 18, 18);
+  font-size: 18px;
+  line-height: 28.8px;
+}
+.benefits .benefits_list .benefits_list_item img {
+  margin-bottom: 28px;
+}
+.benefits .benefits_list .benefits_list_item .bugp {
+  color: var(--main-ft-color);
+  font-size: 17px;
+  line-height: 26px;
+  letter-spacing: 0.6px;
+}
+.benefits .benefits_list .benefits_list_item p:last-child {
+  color: rgb(6, 6, 6);
+  font-size: 16px;
+  line-height: 25.6px;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}

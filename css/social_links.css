@@ -1,0 +1,22 @@
+.social_links {
+  margin-top: 160px;
+  margin-bottom: 90px;
+}
+.social_links ul {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.social_links ul li a {
+  display: inline-block;
+  width: 100px;
+}
+.social_links ul li a img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}

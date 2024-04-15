@@ -1,0 +1,61 @@
+.our_blog {
+  padding-bottom: 80px;
+}
+.our_blog .dots {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+}
+.our_blog .dots a {
+  display: inline-block;
+  margin-right: 10px;
+}
+.our_blog h1 {
+  color: rgb(52, 52, 52);
+  font-size: 54px;
+  line-height: 67.2px;
+  letter-spacing: 1.68px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.our_blog .blog_p {
+  color: rgb(6, 6, 6);
+  font-size: 18px;
+  line-height: 28.8px;
+  text-align: center;
+}
+.our_blog .blog_block {
+  display: flex;
+  margin-top: 57px;
+  overflow: hidden;
+}
+.our_blog .blog_block .blog_item {
+  max-width: 400px;
+  min-width: 380px;
+  margin-right: 20px;
+}
+.our_blog .blog_block .blog_item .blog_item_img {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.our_blog .blog_block .blog_item .blog_item_img img {
+  width: 100%;
+}
+.our_blog .blog_block .blog_item p {
+  color: rgb(9, 9, 9);
+  font-size: 18px;
+  line-height: 28px;
+  text-align: left;
+}
+.our_blog .blog_block .blog_item p:last-child {
+  color: rgb(162, 162, 162);
+  font-size: 14px;
+  line-height: 22.4px;
+  margin-top: 9px;
+}
+.our_blog .blog_block .blog_item p:last-child span {
+  color: rgb(9, 9, 9);
+  font-size: 14px;
+  line-height: 22.4px;
+  margin-left: 9px;
+}

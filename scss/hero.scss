@@ -1,0 +1,152 @@
+.hero {
+    display: flex;
+
+    .hero_info {
+      width: 50%;
+      margin-top: 40px;
+      margin-left: 55px;
+
+      p:first-child {
+          color: rgb(89, 89, 89);
+          font-size: 15px;
+          line-height: 24px;
+          letter-spacing: 1.5px;
+      }
+      h1 {
+        color: rgb(52, 52, 52);
+        font-size: 54px;
+        line-height: 67.2px;
+        letter-spacing: 1.68px;
+        margin-bottom: 12px;
+      }
+
+      .hero_p2 {
+        color: rgb(18, 18, 18);
+        font-size: 18px;
+        line-height: 28.8px;
+        max-width: 481px;
+        margin-bottom: 42px;
+      }
+      .hero_btns {
+
+        .admin-btn, .shop-btn {
+          font-size: 16px;
+          line-height: 22.4px;
+          border-radius: 300px;
+          padding: 1px 46px;
+          border: none;
+        }
+        .admin-btn {
+          color: rgb(255, 255, 255);
+          background: rgb(137, 121, 232);
+          margin-right: 12px;
+        }
+        .shop-btn {
+          color: rgb(137, 121, 232);
+          border: 2px solid rgb(137, 121, 232);
+        }
+      }
+    }
+
+    .hero_img {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        .basket {
+          position: absolute;
+          width: 130px;
+          height: 130px;
+          bottom: -76px;
+          right: 143px;
+          z-index: -2;
+        }
+
+        .socks {
+          position: absolute;
+          width: 170px;
+          height: 250px;
+          right: -26px;
+          top: -28px;
+          object-fit: cover;
+          z-index: -2;
+        }
+
+        img {
+          width: 380px;
+          height: 340px;
+          margin-top: 34px;
+        }
+
+        .visit_store_card {
+          background: rgb(255, 255, 255);
+          box-shadow: 0 0 6px 2px #b6aeae4f;
+          position: absolute;
+          left: -67px;
+          bottom: -98px;
+          z-index: -1;
+          border-radius: 3px;
+
+          .card_header {
+            display: flex;
+            padding: 14px 10px;
+            align-items: center;
+            background: rgb(246, 246, 246);
+
+            p {
+              color: var(--secondary-ft-color);
+              font-size: 10px;
+              font-weight: bold;
+              margin-left: 7px;
+            }
+
+            img {
+              width: 12px;
+              height: 12px;
+              margin-top: 0;
+            }
+          }
+
+          .card_body {
+            padding: 15px 10px 0 10px;
+
+            .card_owner {
+              max-width: 200px;
+              color: rgb(71, 71, 71);
+              font-size: 12px;
+              line-height: 18px;
+              margin-bottom: 13px;
+
+              span {
+                font-weight: bold;
+                color: var(--secondary-ft-color);
+              }
+            }
+
+            div {
+              max-width: 220px;
+              padding: 14px 10px;
+              border: 0.64px solid rgb(234, 234, 234);
+              margin-bottom: 10px;
+              border-radius: 3px;
+              background-image: url(../images/card_bg.png);
+              background-repeat: no-repeat;
+              background-position: right center;
+
+              p:first-child {
+                font-size: 10px;
+                color: rgb(128, 128, 128);
+                margin-bottom: 10px;
+              }
+
+              p:last-child {
+                font-size: 18px;
+                color: var(--secondary-ft-color);
+                font-weight: bold;
+              }
+            }
+          }
+        }
+    }
+}

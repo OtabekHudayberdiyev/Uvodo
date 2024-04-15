@@ -1,3 +1,18 @@
+@import "./header.scss";
+@import "./hero.scss";
+@import "./social_links.scss";
+@import "./mobile_design.scss";
+@import "./benefits.scss";
+@import "./payment_advert.scss";
+@import "./sell_advert.scss";
+@import "./customer.scss";
+@import "./invest.scss";
+@import "./start.scss";
+@import "./our_blog.scss";
+@import "./install.scss";
+@import "./footer.scss";
+
+
 * {
     margin: 0;
     padding: 0;
@@ -26,9 +41,19 @@ h1 {
 
 ul li {
     list-style: none;
+    a {
+        text-decoration: none;
+    }
 }
 
 body {
     font-family: main-font;
     font-weight: 400;
+    background-image: url(../images/hero_bg.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+button {
+    cursor: pointer;
 }

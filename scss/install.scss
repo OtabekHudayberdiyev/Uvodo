@@ -1,0 +1,37 @@
+.install {
+    background: rgb(243, 241, 252);
+    padding: 57px 0 97px 0;
+    text-align: center;
+
+    h1 {
+        color: rgb(52, 52, 52);
+        font-size: 56px;
+        line-height: 67.2px;
+        letter-spacing: 1.68px;
+        margin-bottom: 60px;
+    }
+
+    p {
+        color: rgb(18, 18, 18);
+        font-size: 18px;
+        line-height: 28.8px;
+    }
+
+    p:nth-child(3) {
+        color: rgb(18, 18, 18);
+        font-size: 13px;
+        line-height: 28.8px;
+        margin-bottom: 23px;
+    }
+
+    button {
+          font-size: 16px;
+          line-height: 22.4px;
+          border-radius: 300px;
+          padding: 1px 46px;
+          border: none;
+          color: rgb(255, 255, 255);
+          background: rgb(137, 121, 232);
+    }
+
+}
